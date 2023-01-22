@@ -2,32 +2,132 @@
 <html>
     <head>
         <title> My New Webpage</title>
-        <body>
+         <body>
             <header>
-                <h1>My New Webpage</h1>
-                <span>The entry below does not do anything</span>
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+                <link rel="stylesheet" href = "Assets/CSS/stylesheet.css">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      </form>
+                    </div>
+            </nav>
+                
             </header>
-            <div>
+                <div id = "back"> 
+                        <div id = "back2">
+                            <h1>My New Webpage!</h1>
+                            <h4 class = "container-fluid">About Me:</h4>
+                        </div>
+                    <span id ="pic"><img src="Assets/IMG/Headshot.JPG" height="250px" width="250px"/></span>
+                    <span id="sub">Welcome to my personal website!</span>
+                </div> 
+            <article class = "fill">
+                <h5 id = "subhead">Bio:</h5>
+                    <div id ="text">
+                        Hello, my name is Luke Baker. I am from Alexandria, Kentucky and have lived here my entire life. I attended Campbell County Highschool, where I graduated Summe Cum Laude. Now, I am a sophomore at Northern Kentucky University studying Applied Software Engineering. In the four semesters I have been here, I have been honored with joining the National Society and Leadership Success as well as joining the Alpha Tau Omega Fraternity. I am currently learning java, html, and CSS. I prefer to write code in python, where I believe my coding strength lies.  
+                        <a href = "https://github.com/bakerl20">Visit My Github Page!</a>
+                    </div>
+                <h5 id="subhead">Skills:</h5>
+                    <ol id="text2">
+                        <span id= "first">Coding</span>
+                        <span id = "left">Golf</span>
+                        <span id = "left">Videogames</span>
+                    </ol>
 
-            <input type = "email", name ="emailaddress"/>
-            <button type="submit">Submit</button>
-
-             </div>
-            <a href = "https://github.com/bakerl20">Visit My Github Page!</a>
-                <ol style = "color:blue", start = "1">
-                <li>Northern Kentucky University</li>
-                <li>Alpha Tau Omega</li>
-                </ol>
-            <article class = "preview", style = "color:red">
-                <h1>My New Webpage</h1>
-                <span>An inline tag </span>
-                <span>An inline tag </span>
+                    <div id="back3">
+                        <span id="pic"><img src="Assets/IMG/IMG_4100.JPG" height="250px" width="250px"/></span>
+                        <span id="pic"><img src="Assets/IMG/Golf_gif_MOV_AdobeExpress.gif" height="250px" width="250px"/></span>
+                        <span id="pic"><img src="Assets/IMG/VVLVE5384_MOV_AdobeExpress (1).gif" height="250px" width="250px"/></span>
+                    </div>
+         
+                    <ol id="text3">
+                        <span>I'm still learning to code, but I made this website!</span>
+                        <span id = "subleft">I'm new to golf, but I'm good at having fun!</span>
+                        <span id = "subleft2">This is where 6 years of my life went<span>
+                    </ol>
+                <h5 id="subhead">More About Me:</h5>
+                    <div id="text">
+                        Growing up, I played soccer all day everyday. I was decently good but I lost the passion for it, so I haven't picked it back up in a few years. Now, One of my favorite things to do in my free time is to golf. As soon as I quit playing soccer, I started golfing. If I'm not golfing, I like to watch TV shows like Better Call Saul and Breaking Bad. I consider myself an artistic-abled person, but I hardly draw anything besides cartoon characters. I have also played video games for as long as I can remember. Now, I play a lot of Rocket League, so much so that I am in the top 6% skill level. My favorite music artist is Zach Bryan or Tyler Childers.
+                    </div>
+                    <div id="back3">
+                        <span id="pic"><img src="Assets/IMG/Snickers.PNG" height="150px" width="150px"/></span>
+                        <span id="pic"><img src="Assets/IMG/Gerald.PNG" height="150px" width="150px"/></span>
+                        <span id="pic"><img src="Assets/IMG/Peter.PNG" height="150px" width="150px"/></span>
+                        <span id="pic"><img src="Assets/IMG/BCS.jpg" height="150px" width="150px"/></span>
+                    </div>
+                    <ol id="text4">
+                        <span>My cat Snickers</span>
+                        <span id = "subleft3">My leopard Gecko Gerald</span>
+                        <span id = "subleft4">A festive Peter Griffin I drew</span>
+                        <span id = "subleft5">Better Call Saul!</span>
+                    </ol>
+                <article id = "back2">
+                    <h4 id ="contact">Contact me!</h4>
+                        <div class = "back">
+                            <form>
+                                <span id = "contacts">Please leave your name here!</span>
+                                <input type = "input", name ="name"/>
+                                <button type="submit">Submit</button>
+                            </form>
+                            <form>
+                                <span id = "contacts">Please leave your email here!</span>
+                                <input type = "email", name ="emailaddress"/>
+                                <button type="submit">Submit</button>
+                            </form>
+                            <form>
+                                <span id = "contacts">Please leave your github here!</span>
+                                <input type = "input", name ="number"/>
+                                <button type="submit">Submit</button>
+                            </form>
+                        </div>
+                </article>
+        <footer id = "footer">
+            <h4 id="subhead">My Contact Information:</h4>
+                <ul id = "text">
+                    <li>Phone Number: 859-393-0238
+                        <inline id = "text3"> Please leave your name in voicemail !!</inline>
+                    </li>
+                    <li>Github Account: 
+                        <a href = "https://github.com/bakerl20">Github.com/bakerl20</a>
+                    </li>
+                    <li>Snapchat: luke.baker2115</li>
+                    <li>Instagram: _luke_baker_4 </li>
+                    <li>Venmo: luke_baker_4 </li>
+        </footer>
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
             </article>
-            <footer class = "navigation">
-                <h1>My New Webpage</h1>
-                <span>An inline tag </span>
-                <span>An inline tag </span>
-            </footer>
         </body>
     </head>
 </html>
